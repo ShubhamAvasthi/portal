@@ -97,7 +97,7 @@ Setup for developers (Windows)
     $ CREATE USER <anyname you want e.g systers> WITH PASSWORD 'your password';
     $ CREATE DATABASE systersdb;
     $ \c systersdb;
-    $ GRANT ALL PRIVILEGES ON systersdb TO <username created above>;
+    $ GRANT ALL PRIVILEGES ON DATABASE systersdb TO <username created above>;
     ```
 1. Fill in the database details in `systers_portal/settings/dev.py`.
 1. Run `set SECRET_KEY=foobarbaz` in your terminal, ideally the secret key
